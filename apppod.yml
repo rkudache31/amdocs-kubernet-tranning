@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Pod
+metadata:
+       name: client-pod
+       labels:
+             component: web
+spec:
+      containers:
+              - name: client
+                image: rkudache31/multi-client-new
+                ports:
+                     - containerPort: 4000

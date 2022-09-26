@@ -1,0 +1,58 @@
+    1  az login
+    2  az aks get-credentials --resource-group akscnigrp --name akscni
+    3  kubectl get pods
+    4  kubectl get service
+    5  kubectl run -it --rm busybox --image=busybox -- sh
+    6  kubect run --help
+    7  kubectl run --help
+    8  kubectl run -it --rm busybox --image=busybox -- sh
+    9  kubectl run -it --rm busybox --image=ubuntu -- sh
+   10  vi replicaset-definnation.yml
+   11  cat replicaset-definnation.yml
+   12  vi replicaset-definnation.yml
+   13  kubectl apply -f replicaset-definnation.yml
+   14  vi replicaset-definnation.yml
+   15  kubectl apply -f replicaset-definnation.yml
+   16  vi replicaset-definnation.yml
+   17  kubectl apply -f replicaset-definnation.yml
+   18  vi replicaset-definnation.yml
+   19  kubectl apply -f replicaset-definnation.yml
+   20  kubectl get replica
+   21  kubectl get all
+   22  cat replicaset-definnation.yml
+   23  kubectl describe pod pod/myapp-replicatset-85c5n
+   24  kubectl get pods
+   25  kubectl describe pod myapp-replicatset-85c5n
+   26  kubectl get pods
+   27  kubectl delete myapp-replicatset-85c5n
+   28  kubectl delete pod myapp-replicatset-85c5n
+   29  kubectl get pods
+   30  kubectl logs pods
+   31  kubectl get logs pods
+   32  kubectl get log pods
+   33  kubectl log myapp-replicatset-85c5n
+   34  kubectl logs myapp-replicatset-85c5n
+   35  kubectl history myapp-replicatset-85c5n
+   36  kubectl --help
+   37  kubectl scale --replicas=6 -f replicaset-definnation.yml 
+   38  kubectl get all
+   39  kubectl scale --replicas=2 -f replicaset-definnation.yml 
+   40  kubectl get all
+   41  cat replicaset-definnation.yml 
+   42  kubectl apply -f replicaset-definnation.yml
+   43  kubectl get all
+   44  vi apppod.yml
+   45  kubectl apply -f apppod.yml 
+   46  vi apppod.yml 
+   47  kubectl apply -f apppod.yml 
+   48  kubectl get pods
+   49  vi apppod.yml 
+   50  kubectl get pods
+   51  kubectl apply -f apppod.yml 
+   52  kubectl get pods
+   53  kubectl describe  pods client-pod
+   54  cat apppod.yml 
+   55  vi apppod.yml
+   56  kubectl apply -f apppod.yml 
+   57  history 
+   58  history > command.txtx
